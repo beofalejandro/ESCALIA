@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESCALIA Engine</title>
+    <script src="https://kit.fontawesome.com/9b86e62655.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style-proyects.css">
+    <link rel="stylesheet" href="stylecrud.css">
+</head>
+<body>
+    <header id="header">
+        <img src="Pictures/ESCALIALogo.svg" class="logo" alt="">
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="Pictures/menu.png" class="menu-icono" alt="">
+        </label>
+        <ul class="menu">
+            <li class="item" ><a href="index.html">Inicio</a></li>
+            <li class="item">Acerca de</li>
+        </ul>
+    </header>
+
+    <div class="encabezado-1"> 
+    </div>
+
+    <div class="encabezado-2">
+        <p>
+            Seccion de Proyectos
+        </p> 
+    </div>
+
+    <div class="encabezado-1"> 
+    </div>
+
+    
+    
+    <div class="container-proyect">
+        <p>
+            CRUD ITICS
+        </p>
+        <div class="container-itics">
+            <div class="grupo-1">
+                <div class="box-1">
+                    <input type="text" id="task-title" class="fore-control" 
+                    placeholder="Titulo" autofocus>
+    
+                    <textarea id="task-description" rows="3" class="form-control"
+                    placeholder="Descripcion de la tarea"></textarea>
+    
+                    <Button class="btn-primary" id="btn-task-form">
+                    Guardar
+                    </Button>
+                </div>
+                <div class="box-2">
+    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grupo-1">
+            <div class="box-1">
+                <figure>
+                    <a href="#">
+                        <img src="Pictures/ESCALIALogo.svg" alt="ESCALIA Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box-2">
+                <h2>Acerca de</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, dolorum.</p>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>&copy; 2023 <b>ESCALIA Studios</b> - Todos los derechos Reservados</small>
+        </div>
+    </footer>
+
+    <script type="module" src="crud_itics.js"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
