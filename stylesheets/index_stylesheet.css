@@ -1,0 +1,163 @@
+body {
+    background-image: linear-gradient(180deg,
+    #0000008c 0%,
+    #0000008c 100%),
+    url(style_resourses/index_wall.jpg);
+    background-position: center;
+    background-color: #252525;
+    color: #fff;
+}
+
+.link {
+    color: #f2f2f2;
+}
+
+.link:hover {
+    color: #EC0138;
+}
+
+.welcome {
+    height: 600px;
+    color: #fff;
+}
+
+.welcome .welcome-container {
+    padding: 250px 0 0 0;
+    margin: 0 130px 0 130px;
+    text-align: center;
+}
+
+.welcome .welcome-container h1{
+    padding: 0 0 5px 0;
+}
+
+.welcome .welcome-container h1:hover {
+    color: #EC0138;
+    transition: 0.5s;
+}
+
+.cards-space {
+    background-color: #252525;
+}
+
+.cards-space h2{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.cards-space .cards-container {
+    text-align: center;
+    margin: 0 30px 0 30px;
+}
+
+.cards-space .cards-container .card{
+    width: 250px;
+    display: inline-block;
+    background-color: #414141;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    margin: 15px;
+}
+
+.cards-space .cards-container .card p{
+    padding: 5px 5px 5px 5px;
+}
+
+.cards-space .cards-container .card .picture{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.cards-space .cards-container .card:hover{
+    background-color: #252525;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0px 0px 4px 4px #EC0138;
+}
+
+.longest-cards-space {
+    background-color: #252525;
+}
+
+.longest-cards-space .longest-cards {
+    padding: 20px 20px 20px 20px;
+    margin: 20px 5% 20px 5%;
+    display: flex;
+    grid-gap: 5px;
+    background-color: #414141;
+    border-radius: 5px;
+}
+
+.longest-cards-space .longest-cards .box-1 {
+    width: 200px;
+    display: flex;
+}
+
+.longest-cards-space .longest-cards .longest-picture {
+    width: 200px;
+}
+
+.longest-cards-space .longest-cards .box-2 {
+    padding: 20px 0 0 20px;
+}
+
+.longest-cards-space .longest-cards .box-2 p {
+    padding: 10px 0 0 0;
+}
+
+.questions h2{
+    padding: 10px 0 0 0;
+    text-align: center;
+}
+
+.q_content .question{
+    background-color: #414141;
+    border-radius: 5px;
+    margin: 10px 5% 15px 5%;
+    padding: 20px 20px 30px 20px;
+}
+
+.q_content .question h3{
+    padding: 0 0 30px 5px;
+}
+
+.q_content .question p{
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #252525;
+}
+
+@media screen and (max-width:800px){
+    .cards-space .cards-container .card{
+        width: 250px;
+        background-color: #414141;
+        border-radius: 5px;
+        color: #fff;
+        margin: 5px;
+    }
+
+    .cards-space .cards-container {
+        text-align: center;
+    }
+
+    .longest-cards-space .longest-cards {
+        margin: 0 25px 0 25px;
+        height: auto;
+        display: inline-block;
+    }
+
+    .longest-cards-space {
+        background-color: #252525;
+    }
+
+    .longest-cards-space .longest-cards .box-2 {
+        width: auto;
+        padding: 20px 0 0 0;
+    }
+}

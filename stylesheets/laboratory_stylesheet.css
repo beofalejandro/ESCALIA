@@ -1,0 +1,188 @@
+@keyframes multicolor {
+    0% {color: #EC0128;}
+    25% {color: aqua;}
+    50% {color: gold;}
+    75% {color: mediumturquoise;}
+    100% {color: darkred;}
+}
+
+@keyframes w_multicolor {
+    0% {background-position: 0% 50%;}
+    25% {background-position: 50% 100%;}
+    50% {background-position: 100% 50%;}
+    75% {background-position: 50% 0%;}
+}
+
+.link {
+    color: #252525;
+}
+
+.link:hover {
+    font-weight: bold;
+    color: #252525
+}
+
+body {
+    height: 145vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    background-color: #ffffff;
+    color: #252525;
+}
+
+.welcome {
+    height: 500px;
+}
+
+.background {
+    height: 500px;
+    background: linear-gradient(50deg, aquamarine, #EC0138);
+    background-size: 2200px 500px;
+    animation: w_multicolor 25s linear infinite;
+}
+
+.welcome .title {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.welcome .background .title h1{
+    animation: multicolor 5s linear infinite;
+    padding: 0 0 5px 0;
+}
+
+.proximas_implementaciones {
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+.proximas_implementaciones .explain {
+    padding: 15px;
+    font-family: 'Raleway';
+}
+
+.proximas_implementaciones h3 {
+    animation: multicolor 5s linear infinite;
+}
+
+.calculadora {
+    background-color: #252525;
+    color: #fff;
+    margin: 20px 130px 20px 130px;
+    padding: 10px 30px 0 30px;
+    border-radius: 5px;
+}
+
+.content-cal {
+    display: flex;
+}
+
+.content-cal .calc {
+    text-align: center;
+    margin: 20px;
+    width: 300px;
+}
+
+.content-cal .description {
+    width: 700px;
+}
+
+.btn-calc {
+    height: 50px;
+    width: 50px;
+    margin: 5px 0 5px 0;
+    color: #fff;
+    background-color: #252525;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.btn-calc:hover {
+    height: 50px;
+    width: 50px;
+    background-color: darkviolet;
+    border: 1px solid #252525;
+    transition: 0.3s;
+    border-radius: 2px;
+}
+
+.calc {
+    font-size: 35px;
+}
+
+.display{
+    font-family: 'Consolas';
+    height: 30px;
+    width: auto;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.comentary {
+    padding-top: 10px;
+    background-color: #252525;
+    color: #fff;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+
+}
+
+.proximas_implementaciones p {
+    padding: 30px 20px 0 20px;
+}
+
+.proximas_implementaciones .comentary {
+    padding-top: 10px;
+}
+
+.slider-container {
+    padding-top: 10px;
+    background-color: #252525;
+    color: #fff;
+    margin: 20px 130px 20px 130px;
+    border-radius: 5px;
+}
+
+.music-player {
+    padding-top: 10px;
+    background-color: #252525;
+    color: #fff;
+    margin: 20px 130px 20px 130px;
+    border-radius: 5px;
+}
+
+.footer-lab {
+    background-color: #ffffff;
+    padding: 15px 10px;
+    text-align: center;
+    color: #252525;
+}
+
+.footer-lab .group-b small{
+    font-size: 16px;
+}
+
+@media screen and (max-width:800px){
+    .calculadora {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .content-cal {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+        display: inline-block;
+    }
+
+    .comentary {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}

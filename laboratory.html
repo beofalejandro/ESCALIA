@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio | ESCALIA Studios</title>
+    <link rel="stylesheet" href="stylesheets/laboratory_stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/general_stylesheet.css">
+    <link rel="Icon" href="library/logotype_resourses/ESCALIALogoCA.svg">
+</head>
+<body>
+    <header id="header">
+        <img src="library/logotype_resourses/ESCALIALogo.svg" class="logo" alt="">
+        <input type="checkbox" id="menu"/>
+        <label for="menu">
+            <img src="library/logotype_resourses/others/menu.svg" class="menu-icono" alt="">
+        </label>
+        <ul class="menu">
+            <li class="item">
+                <a class="link" href="index.html">Inicio</a>
+            </li>
+            <li class="item">
+                <a class="link" href="proyects.html">Proyectos</a>
+            </li>
+            <li class="item">
+                <a class="link" href="telecom.html">Telecomunicaciones</a>
+            </li>
+            <li class="item">
+                <a class="link" href="about.html">Acerca de</a>
+            </li>
+        </ul>
+    </header>
+
+    <section class="welcome">
+        <div class="background">
+            <div class="title">
+                <h1>Bienvenido al Panel de Pruebas Beta</h1>
+                <p>Encontraras un monton de cosas divertidad por aqui y proximas implementaciones asi que no dudes pasar por aqui</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="proximas_implementaciones">
+        <h2>Proximas implementaciones</h2>
+        <p class="explain">¿Hay algo malo? Encontrarás una u otra cosas que vas a notar que no va de acuerdo a lo que describe o que la descripcion es muy erronea, ¡No te preocupes! ya que por el constante cambio nuestro equipo de diseño no le interesa la descripciones y titulos por lo que abundara bastantes errores a la hora de leer, ademas de algunos errores(SOLO BETA) no significa que le escribamos a lo tonto como YandereDEV, por ahora solo prueba nuestros inventos, ¿como funcionan? no lo sabemos XDN'T, solo sabemos que funciona y ya :7</p>
+        <div class="calculadora">
+            <h3>Calculadora de Papus</h3>
+            <div class="content-cal">
+                <div class="calc">
+                    <div class="buttons">
+                        <h3 class="display" id="display">
+                            0
+                        </h3>
+                        <br>
+                            <button class="btn-calc" onclick="toDisplay('1')">1</button>
+                            <button class="btn-calc" onclick="toDisplay('2')">2</button>
+                            <button class="btn-calc" onclick="toDisplay('3')">3</button>
+                            <button class="btn-calc" onclick="toDisplay('+')">+</button>
+                        <br>
+                            <button class="btn-calc" onclick="toDisplay('4')">4</button>
+                            <button class="btn-calc" onclick="toDisplay('5')">5</button>
+                            <button class="btn-calc" onclick="toDisplay('6')">6</button>
+                            <button class="btn-calc" onclick="toDisplay('-')">-</button>
+                        <br>
+                            <button class="btn-calc" onclick="toDisplay('7')">7</button>
+                            <button class="btn-calc" onclick="toDisplay('8')">8</button>
+                            <button class="btn-calc" onclick="toDisplay('9')">9</button>
+                            <button class="btn-calc" onclick="toDisplay('*')">x</button>
+                        <br>
+                            <button class="btn-calc" onclick="toDisplay('0')">0</button>
+                            <button class="btn-calc" onclick="Limpiar()">C</button>
+                            <button class="btn-calc" onclick="Calcular()">=</button>
+                            <button class="btn-calc" onclick="toDisplay('/')">/</button>
+                    </div>
+                </div>
+            
+                <div class="description">
+                    <p>¿Conoces la version de Windows 10? Pues es muy similar</p>
+                    <p>Nueva calculadora con tecnologia de Javascript, por ahora solo incluira campos para el teclado pero esperamos que en un futuro tu puedas ver los botones como en una calculadora comun y corriente salvo que por ahora sera una calculadora sin memoria ya que aun no manejaremos el almacenamiento de variables y base de datos</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="comentary">
+            <h3>Campo de Comentarios</h3>
+            <p>Conoce la nueva intefaz de comentarios donde podras depositar tus comentarios y asi mejorar juntos esta pagina, puedes dar ideas de que es lo que quieres que implementemos y posiblemente lo veras en un futuro aqui</p>
+            <div class="coment">
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <h3>Silder</h3>
+            <div class="slider">
+                <div class="slide" style="background-image: url('stylesheets/style_resourses/about_wall.jpg');"></div>
+                <div class="slide" style="background-image: url('stylesheets/style_resourses/about_wall.jpg');"></div>
+                <div class="slide" style="background-image: url('stylesheets/style_resourses/about_wall.jpg');"></div>
+            </div>
+            <a href="lab-extension.html">
+                <button class="button">Vamos!</button>
+            </a>
+            <button class="prev" onclick="prevSlide()">❮</button>
+            <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+
+        <div class="music-player">
+            <h3>Reproductor de musica</h3>
+        </div>
+    </section>
+
+    <footer class="footer-lab">
+        <div class="group-b">
+            <small>&copy; 2023 <b>ESCALIA Software</b> - Todos los derechos Reservados</small>
+        </div>
+    </footer>
+
+    <script src="scripts/laboratory.js"></script>
+</body>
+</html>
