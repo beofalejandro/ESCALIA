@@ -115,13 +115,14 @@ button {
 
 .c_t_picture {
     width: 280px;
-    justify-content: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .p-first {
     margin: 10px;
-    align-items: center;
+    width: 200px;
 }
 
 .c_t_content {
