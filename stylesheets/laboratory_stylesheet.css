@@ -68,11 +68,11 @@ body {
     animation: multicolor 5s linear infinite;
 }
 
-.calculadora {
+.p_icontainer {
     background-color: #252525;
     color: #fff;
     margin: 20px 130px 20px 130px;
-    padding: 10px 30px 0 30px;
+    padding: 10px 30px 10px 30px;
     border-radius: 5px;
 }
 
@@ -122,39 +122,12 @@ body {
     text-align: center;
 }
 
-.comentary {
-    padding-top: 10px;
-    background-color: #252525;
-    color: #fff;
-    margin-left: 130px;
-    margin-right: 130px;
-    margin-bottom: 30px;
-    border-radius: 5px;
-
-}
-
 .proximas_implementaciones p {
     padding: 30px 20px 0 20px;
 }
 
 .proximas_implementaciones .comentary {
     padding-top: 10px;
-}
-
-.slider-container {
-    padding-top: 10px;
-    background-color: #252525;
-    color: #fff;
-    margin: 20px 130px 20px 130px;
-    border-radius: 5px;
-}
-
-.music-player {
-    padding-top: 10px;
-    background-color: #252525;
-    color: #fff;
-    margin: 20px 130px 20px 130px;
-    border-radius: 5px;
 }
 
 .footer-lab {
