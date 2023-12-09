@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto | Alejandro Barrientos Escalante</title>
+    <link rel="stylesheet" href="stylesheets/institute_stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/general_stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/themes/dark.css">
+    <link rel="stylesheet" href="stylesheets/themes/light.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="Icon" href="library/logotype_resourses/ESCALIALogoCA.svg">
+</head>
+<body class="dark">
+    <header id="header">
+        <img src="library/logotype_resourses/ESCALIALogo.svg" class="logo" alt="">
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+            <img src="library/logotype_resourses/others/menu.svg" class="menu-icono" alt="">
+        </label>
+        <ul class="menu">
+            <li class="item">
+                <a class="link" href="index.html">Incio</a>
+            </li>
+            <li class="item">
+                <a class="link" href="proyects.html">Proyectos</a>
+            </li>
+            <li class="item">
+                <a class="link" href="laboratory.html">Lab</a>
+            </li>
+            <li class="item">
+                <a class="link" href="about.html">Acerca de</a>
+            </li>
+        </ul>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide" style="background-image: url('stylesheets/style_resourses/only-lab/S1.png');"></div>
+            <div class="slide" style="background-image: url('stylesheets/style_resourses/only-lab/S2.jpg');"></div>
+            <div class="slide" style="background-image: url('stylesheets/style_resourses/only-lab/S3.jpg');"></div>
+            <div class="slide" style="background-image: url('stylesheets/style_resourses/only-lab/S4.jpg');"></div>
+            <div class="slide" style="background-image: url('stylesheets/style_resourses/only-lab/S5.jpg');"></div>
+            <div class="slide" style="background-image: url('stylesheets/style_resourses/only-lab/S6.jpg');"></div>
+        </div>
+        <button class="prev" onclick="prevSlide()">❮</button>
+        <button class="next" onclick="nextSlide()">❯</button>
+    </div>
+
+    <div class="welcome">
+        <div class="welcome-container">
+            <h1>Bienvenido Panel de Instituto</h1>
+            <button class="mode" id="mode">Oscuro</button>
+            <p>Aqui escontraras mis practicas y ejercicios del instituto, este se espera que se visitado solo pro mis
+                profes para calificar, pero igual puedes echar un vistazo a ellos</p>
+        </div>
+    </div>
+
+    <div class="institute-container">
+        <div class="description">
+            <h2>2101156 - Alejandro Barrientos Escalante</h2>
+        </div>
+
+        <div class="proyect">
+            <table class="table">
+                <td>Hola mundo en Python</td>
+                <td>
+                    <Button>Ejecutar</Button>
+                </td>
+            </table>
+        </div>
+    </div>
+
+    <footer class="dark" id="footer">
+        <div class="group-a">
+            <div class="box-1">
+                <figure>
+                    <a href="#">
+                        <img src="library/logotype_resourses/ESCALIALogo.svg" alt="ESCALIA Logo">
+                    </a>
+                </figure>
+            </div>
+            <div class="box-2">
+                <h2>CV: Alejandro Barrientos Escalante</h2>
+                <p>Esta es una pagina web desarrollada por mi con el fin de usarlo como portafolio por lo que solo
+                    incluira mis proyectos y algunos manuales que inclusive les serviran para comprender mejor, Solo
+                    para fines educativos</p>
+            </div>
+        </div>
+        <div class="group-b">
+            <small>&copy; 2023 <b>ESCALIA Software</b> - Todos los derechos Reservados</small>
+        </div>
+    </footer>
+
+
+    <script src="scripts/institute-script.js"></script>
+</body>
+
+</html>
