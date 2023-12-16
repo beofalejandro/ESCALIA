@@ -14,12 +14,12 @@
 }
 
 .link {
-    color: #252525;
+    color: #252525; 
 }
 
 .link:hover {
     font-weight: bold;
-    color: #252525
+    color: #252525;
 }
 
 body {
@@ -52,6 +52,7 @@ body {
 .welcome .background .title h1{
     animation: multicolor 5s linear infinite;
     padding: 0 0 5px 0;
+    font-size: 30px;
 }
 
 .proximas_implementaciones {
@@ -68,7 +69,7 @@ body {
     animation: multicolor 5s linear infinite;
 }
 
-.p_icontainer {
+.lab-container {
     background-color: #252525;
     color: #fff;
     margin: 20px 130px 20px 130px;
@@ -80,14 +81,18 @@ body {
     display: flex;
 }
 
-.content-cal .calc {
+.content-cal .calculator {
     text-align: center;
     margin: 20px;
-    width: 300px;
+}
+
+.content-cal .buttons {
+    display: block;
+    width: max-content;
 }
 
 .content-cal .description {
-    width: 700px;
+    width: auto;
 }
 
 .btn-calc {
@@ -109,7 +114,7 @@ body {
     border-radius: 2px;
 }
 
-.calc {
+.calculator {
     font-size: 35px;
 }
 
@@ -142,9 +147,9 @@ body {
 }
 
 @media screen and (max-width:800px){
-    .calculadora {
-        margin-left: 50px;
-        margin-right: 50px;
+    .lab-container {
+        margin: 0 30px 0 30px;
+        padding: 0px 10px 0 10px;
     }
 
     .content-cal {
@@ -153,9 +158,10 @@ body {
         display: inline-block;
     }
 
-    .comentary {
-        margin-left: 50px;
-        margin-right: 50px;
+    .content-cal .calculator {
+        display: flex;
+
+        justify-content: center;
     }
 
 }

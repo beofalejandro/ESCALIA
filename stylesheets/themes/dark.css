@@ -3,3 +3,8 @@
     color: #fff;
     transition: all 0.6s ease-in-out;
 }
+
+.institute-container{
+    background-color: darkred;
+    transition: all 0.6s ease-in-out;
+}

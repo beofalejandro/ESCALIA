@@ -16,6 +16,10 @@ body {
     color: #EC0138;
 }
 
+.content {
+    background-color: #252525;
+}
+
 .welcome {
     height: 600px;
     color: #fff;

@@ -16,6 +16,10 @@ body {
     color: #EC0138;
 }
 
+.content {
+    background-color: #252525;
+}
+
 .p_welcome {
     height: 200px;
     margin: 70px 0 0 0;
