@@ -36,5 +36,5 @@ setInterval(nextSlide, 15000);
 ButtonMode.addEventListener('click', () => {
         themeforbody.classList.toggle('light');
         themeforfooter.classList.toggle('light');
-        themeforcontainers.classList.toggle('light'); // Preview
+        themeforcontainers.classList.toggle('institute-container-light'); // Preview
     });
