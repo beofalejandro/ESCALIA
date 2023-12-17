@@ -18,6 +18,8 @@ body {
 
 .content {
     background-color: #252525;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 .p_welcome {
@@ -30,7 +32,30 @@ body {
     padding: 75px 0 0 0;
 }
 
-.p_container {
-    margin: 0 50px 0 50px;
+.pro_container {
+    margin: 10px 40px 10px 40px;
+    padding: 10px 15px 10px 15px;
     text-align: center;
+    background-color: #414141;
+    border-radius: 5px;
+}
+
+.p_table {
+    background-color: #252525;
+    border-radius: 4px;
+    margin: 15px 0 10px 0;
+    width: 100%;
+}
+
+.p_table th {
+    padding: 0 0 5px;
+    background-color: darkred;
+}
+
+.p_table .name {
+    width: 75%;
+}
+
+.p_table .description {
+    justify-content: left;
 }
