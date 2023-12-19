@@ -41,7 +41,7 @@ body {
     height: 500px;
     background: linear-gradient(50deg, aquamarine, #EC0138);
     background-size: 2200px 500px;
-    animation: w_multicolor 25s linear infinite;
+    animation: w_multicolor 35s linear infinite;
 }
 
 .welcome .title {
