@@ -39,7 +39,7 @@ header {
 
 .slider-container {
   position: relative;
-  width: 100%;
+  height: 500px;
   max-width: auto;
   margin: 0 0 0 0;
   overflow: hidden;
@@ -52,8 +52,10 @@ header {
 
 .slide {
   flex: 0 0 100%;
-  height: 500px;
+  height: 600px;
+  position: relative;
   background-size: cover;
+  background-repeat: no-repeat;
   z-index: -1;
 }
 
@@ -61,7 +63,7 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 25px;
+  font-size: 28px;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -72,7 +74,7 @@ header {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  font-size: 25px;
+  font-size: 28px;
   border: none;
   background: transparent;
   cursor: pointer;
@@ -93,8 +95,8 @@ header {
   border-radius: 5px;
 }
 
-@media screen and (max-width:800px){
-    .institute-container {
-        margin: 20px 10px 20px 10px;
-    }
+@media screen and (max-width: 800px) {
+  .institute-container {
+    margin: 20px 10px 20px 10px;
+  }
 }
