@@ -1,9 +1,10 @@
 @keyframes multicolor {
     0% {color: #EC0128;}
-    25% {color: aqua;}
-    50% {color: gold;}
-    75% {color: mediumturquoise;}
-    100% {color: darkred;}
+    20%{color: #ff99cc;}
+    25% {color: #32C0F4;}
+    50% {color: yellow;}
+    75% {color: #4DE854;}
+    100% {color: #FD6585;}
 }
 
 @keyframes w_multicolor {
@@ -19,7 +20,7 @@
 
 .link:hover {
     font-weight: bold;
-    color: #252525;
+    color: #FD6585;
 }
 
 body {
@@ -39,9 +40,9 @@ body {
 
 .background {
     height: 500px;
-    background: linear-gradient(50deg, aquamarine, #EC0138);
+    background: linear-gradient(220deg, #33ccff, #A71D31);
     background-size: 2200px 500px;
-    animation: w_multicolor 35s linear infinite;
+    animation: w_multicolor 40s linear infinite;
 }
 
 .welcome .title {
@@ -50,7 +51,7 @@ body {
 }
 
 .welcome .background .title h1{
-    animation: multicolor 5s linear infinite;
+    animation: multicolor 10s linear infinite;
     padding: 0 0 5px 0;
     font-size: 30px;
 }

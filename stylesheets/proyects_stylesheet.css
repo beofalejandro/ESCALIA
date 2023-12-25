@@ -24,12 +24,14 @@ body {
 
 .p_welcome {
     height: 200px;
-    margin: 90px 0 60px 0;
+    margin: 90px 28% 70px 28%;
+    background-color: #fff;
 }
 
 .p_welcome h1 {
     text-align: center;
     padding: 75px 0 0 0;
+    color: #252525;
 }
 
 .pro_container {

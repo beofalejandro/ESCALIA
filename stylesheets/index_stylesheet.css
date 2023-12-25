@@ -4,7 +4,6 @@ body {
     #0000008c 100%),
     url(../library/pictures/background/index_bg.jpg);
     background-position: center;
-    background-color: #252525;
     color: #fff;
 }
 
@@ -16,54 +15,54 @@ body {
     color: #EC0138;
 }
 
-.content {
+.content { 
     background-color: #252525;
 }
 
-.welcome {
+.i_welcome {
     height: 600px;
-    color: #fff;
 }
 
-.welcome .welcome-container {
+.i_w_container {
     padding: 250px 0 0 0;
-    margin: 0 130px 0 130px;
+    margin: 0 100px 0 100px;
     text-align: center;
 }
 
-.welcome .welcome-container h1{
+.w_content h1{
     padding: 0 0 5px 0;
+    font-size: 34px;
 }
 
-.welcome .welcome-container h1:hover {
+.w_content h1:hover {
     color: #EC0138;
     transition: 0.5s;
 }
 
-.cards-space {
-    background-color: #252525;
+.i_w_controls {
+    padding: 10px 0 0 0;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .cards-space h2{
-    padding-top: 10px;
-    padding-bottom: 20px;
-    color: #fff;
+    padding: 10px 0 10px 0;
     text-align: center;
 }
 
 .cards-space .cards-container {
     text-align: center;
-    margin: 0 30px 0 30px;
 }
 
-.cards-space .cards-container .card{
+.card{
     width: 250px;
     display: inline-block;
     background-color: #414141;
     border-radius: 5px;
     text-align: center;
-    color: #fff;
     margin: 15px;
+    padding: 0 0 10px 0;
 }
 
 .cards-space .cards-container .card p{
@@ -78,15 +77,8 @@ body {
 
 .cards-space .cards-container .card:hover{
     background-color: #252525;
-    border-radius: 5px;
-    text-align: center;
-    color: #fff;
     transition: 0.5s;
-    box-shadow: 0px 0px 4px 4px #EC0138;
-}
-
-.longest-cards-space {
-    background-color: #252525;
+    box-shadow: 0px 0px 3px 3px #EC0138;
 }
 
 .longest-cards-space .longest-cards {
@@ -115,6 +107,10 @@ body {
     padding: 10px 0 0 0;
 }
 
+.q_content {
+    padding: 10px 0 10px 0;
+}
+
 .questions h2{
     padding: 10px 0 0 0;
     text-align: center;
@@ -124,7 +120,7 @@ body {
     background-color: #414141;
     border-radius: 5px;
     margin: 10px 5% 15px 5%;
-    padding: 20px 20px 30px 20px;
+    padding: 20px 20px 20px 20px;
 }
 
 .q_content .question h3{
@@ -138,18 +134,15 @@ body {
 }
 
 @media screen and (max-width:800px){
-    .welcome .welcome-container {
-        padding: 290px 0px;
+    .i_welcome .i_w_container {
+        padding: 220px 0 0 0;
+        margin: 0 30px 0 30px;
         text-align: center;
         margin: 0 15px 0 15px;
     }
 
     .cards-space .cards-container .card{
-        width: 250px;
-        background-color: #414141;
-        border-radius: 5px;
-        color: #fff;
-        margin: 5px;
+        margin: 10px;
     }
 
     .cards-space .cards-container {
@@ -160,10 +153,6 @@ body {
         margin: 0 25px 0 25px;
         height: auto;
         display: inline-block;
-    }
-
-    .longest-cards-space {
-        background-color: #252525;
     }
 
     .longest-cards-space .longest-cards .box-2 {
