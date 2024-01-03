@@ -19,30 +19,3 @@ body {
 .link:hover {
     color: #EC0138;
 }
-
-#contenedor {
-    width: 400px;
-    height: 300px;
-    background-color: darkred;
-}
-
-#panel1 {
-    width: 50%;
-    height: 100%;
-}
-
-#panel2 {
-    width: 50%;
-    height: 100%;
-}
-
-#botones {
-    width: 100%;
-    height: 50px;
-}
-
-button {
-    width: 50%;
-    height: 100%;
-    border: 1px solid black;
-}
