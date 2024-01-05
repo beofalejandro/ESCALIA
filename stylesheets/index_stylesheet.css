@@ -51,7 +51,7 @@ body {
     text-align: center;
 }
 
-.cards-space .cards-container {
+.cards-container {
     text-align: center;
 }
 
@@ -65,23 +65,23 @@ body {
     padding: 0 0 10px 0;
 }
 
-.cards-space .cards-container .card p{
+.card:hover{
+    background-color: #252525;
+    transition: 0.3s;
+    box-shadow: 0px 0px 2px 2px #EC0138;
+}
+
+.card p{
     padding: 5px 5px 5px 5px;
 }
 
-.cards-space .cards-container .card .picture{
+.card .picture{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     width: 100%;
 }
 
-.cards-space .cards-container .card:hover{
-    background-color: #252525;
-    transition: 0.5s;
-    box-shadow: 0px 0px 3px 3px #EC0138;
-}
-
-.longest-cards-space .longest-cards {
+.longest-cards {
     padding: 20px 20px 20px 20px;
     margin: 20px 5% 20px 5%;
     display: flex;
@@ -90,20 +90,20 @@ body {
     border-radius: 5px;
 }
 
-.longest-cards-space .longest-cards .box-1 {
+.box-1 {
     width: 200px;
     display: flex;
 }
 
-.longest-cards-space .longest-cards .longest-picture {
+.longest-picture {
     width: 200px;
 }
 
-.longest-cards-space .longest-cards .box-2 {
+.box-2 {
     padding: 20px 0 0 20px;
 }
 
-.longest-cards-space .longest-cards .box-2 p {
+.box-2 p {
     padding: 10px 0 0 0;
 }
 
@@ -140,8 +140,8 @@ body {
         text-align: center;
         margin: 0 15px 0 15px;
     }
-
-    .cards-space .cards-container .card{
+    
+    .card{
         margin: 10px;
     }
 
@@ -149,13 +149,13 @@ body {
         text-align: center;
     }
 
-    .longest-cards-space .longest-cards {
+    .longest-cards {
         margin: 0 25px 0 25px;
         height: auto;
         display: inline-block;
     }
 
-    .longest-cards-space .longest-cards .box-2 {
+    .box-2 {
         width: auto;
         padding: 20px 0 0 0;
     }

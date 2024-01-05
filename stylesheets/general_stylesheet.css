@@ -4,7 +4,6 @@
     box-sizing: border-box;
     list-style: none;
     font-family: 'Century Gothic', 'Arial';
-    height: auto;
     text-decoration: none;
 }
 
@@ -60,7 +59,7 @@ body {
 }
 
 .link {
-    margin: 0 10px;
+    margin: 0 8px;
     font-size: 17px;
     cursor: pointer;
     font-weight: bold;
@@ -79,16 +78,16 @@ label {
     background-color: #414141;
     color: #fff;
     margin: 5px;
-    border: 1px solid #252525;
-    padding: 7px;
-    border-radius: 5px;
+    cursor: pointer;
+    border: transparent;
+    padding: 8px;
+    border-radius: 3px;
 }
 
 .button:hover{
     background-color: #EC0138;
     color: #fff;
-    border: 1px solid #252525;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 footer {
@@ -118,12 +117,15 @@ footer .group-a .box-2 p{
 }
 
 footer .group-b{
-    padding: 10px 0 10px 0;
-    text-align: center;
+    padding: 3px 0 3px 0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
 }
 
-footer .group-b small{
-    font-size: 16px;
+.rules ul {
+    display: flex;
+    gap: 15px;
 }
 
 @media screen and (max-width:800px){
@@ -191,5 +193,20 @@ footer .group-b small{
 
     footer .foot-logo {
         justify-content: center;
+    }
+
+    footer .group-b{
+        display: block;
+    }
+
+    .rules ul {
+        display: block;
+        align-items: center;
+    }
+
+    .credits {
+        padding: 10px 0 10px 0;
+        width: 100%;
+        text-align: center;
     }
 }
