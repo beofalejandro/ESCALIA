@@ -1,5 +1,5 @@
-.dark {
-    background-color: #252525;
+.body-dark {
+    background-color: #212121;
     color: #fff;
     transition: all 0.5s ease-in-out;
 }
