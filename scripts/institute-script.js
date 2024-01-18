@@ -3,7 +3,7 @@ let currentIndex = 0;
 let ButtonMode = document.getElementById('theme-mode');
 themeforbody = document.body;
 themeforfooter = document.getElementById('footer');
-themeforcontainers = document.getElementById('institute-container') // Preview
+themeforcontainers = document.getElementById('institute-container');
 
 // Automatic slider
 function showSlide(index) {
@@ -26,11 +26,11 @@ function prevSlide() {
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
     showSlide(currentIndex);
 }
-setInterval(nextSlide, 15000);
+setInterval(nextSlide, 20000);
 
 // Change theme
 ButtonMode.addEventListener('click', () => {
     themeforbody.classList.toggle('body-light');
     themeforfooter.classList.toggle('footer-light');
-    themeforcontainers.classList.toggle('institute-container-light'); // Preview
+    themeforcontainers.classList.toggle('institute-container-light');
 });

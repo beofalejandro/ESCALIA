@@ -20,7 +20,7 @@ body {
 }
 
 .link:hover {
-    color: #EC0138;
+    color: #a4031f;
 }
 
 .about-container {
@@ -29,8 +29,7 @@ body {
 }
 
 .about-content{
-    margin: 90px 35px 0 35px;
-    padding: 30px 0 30px 0;
+    padding: 30px;
 }
 
 .h_a_container {
@@ -41,8 +40,13 @@ body {
 .a_logo-container {
     width: 200px;
     display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
+}
+
+.logo-about {
+    width: 190px;
+    justify-content: center;
 }
 
 .me {
@@ -51,10 +55,6 @@ body {
 
 .me p {
     padding: 10px 0 0 0;
-}
-
-.logo-about {
-    width: 190px;
 }
 
 .description {
@@ -89,7 +89,6 @@ body {
     background: linear-gradient(90deg, purple, orange);
     background-size: 2200px 50px;
     animation: w_multicolor 30s linear infinite;
-
 }
 
 .cv_table th {
@@ -103,10 +102,8 @@ body {
 }
 
 @media screen and (max-width:800px){
-
     .about-container {
         background-color: #252525;
-        height: 600px;
         margin: 70px 6% 0 6%;
     }
 
@@ -114,7 +111,11 @@ body {
         width: auto;
         justify-content: center;
         align-items: center;
-        margin: 0 0 30px 0;
+        margin: 10px 0;
+    }
+
+    .me {
+        padding: 20px 0 0 0;
     }
 
     .h_a_container {
@@ -122,8 +123,7 @@ body {
     }
 
     .about-content{
-        margin: 15px 15px 0 15px;
-        padding: 30px 0 0 0;
+        padding: 15px;
         text-align: center;
     }
 }

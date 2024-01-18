@@ -1,10 +1,10 @@
 .body-dark {
-    background-color: #212121;
-    color: #fff;
-    transition: all 0.5s ease-in-out;
+  background-color: #212121;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
 }
 
-.institute-container{
-    background-color: darkred;
-    transition: all 0.3s ease-in-out;
+.institute-container {
+  background-color: darkred;
+  transition: all 0.5s ease-in-out;
 }

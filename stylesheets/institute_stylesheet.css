@@ -7,7 +7,7 @@ header {
 }
 
 .link:hover {
-  color: #ec0138;
+  color: #a4031f;
 }
 
 .mode {
@@ -19,17 +19,16 @@ header {
 }
 
 .welcome {
-  margin: 30px 20px 30px 20px;
+  margin: 30px 20px;
 }
 
 .welcome .welcome-container {
-  padding: 20px 0 0 0;
   text-align: center;
   justify-content: center;
 }
 
 .welcome .welcome-container h1 {
-  padding: 0 0 10px 0;
+  padding: 10px 0;
   transition: 0.5s;
 }
 
@@ -90,13 +89,57 @@ header {
 }
 
 .institute-container {
-  margin: 20px 50px 20px 50px;
-  padding: 15px 15px 15px 15px;
-  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.menu-list {
+  padding: 0 10px;
+  width: fit-content;
+  text-align: center;
+}
+
+.i-menu {
+  padding: 5px 0;
+}
+
+.menu-button {
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: transparent;
+  color: #fff;
+}
+
+.menu-button:hover {
+  color: #212121;
+  transition: 0.2s;
+}
+
+.cont_pan-institute {
+  padding: 10px 20px;
+}
+
+.pan-content {
+  padding: 10px 0;
+  display: flex;
+  gap: 5px;
 }
 
 @media screen and (max-width: 800px) {
   .institute-container {
-    margin: 20px 10px 20px 10px;
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+  }
+
+  .menu-button {
+    width: auto;
+    padding: 10px;
   }
 }

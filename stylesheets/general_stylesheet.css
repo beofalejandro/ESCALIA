@@ -7,6 +7,7 @@
   text-decoration: none;
 }
 
+/* --- HEADER STYLES --- */
 .logo {
   width: 130px;
 }
@@ -25,6 +26,7 @@ header {
   z-index: 1;
 }
 
+/* --- BODY STYLES --- */
 body {
   height: 145vh;
   position: relative;
@@ -32,11 +34,6 @@ body {
   background-repeat: no-repeat;
   z-index: -1;
   transition: all 0.5s;
-}
-
-.content {
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .menu {
@@ -91,6 +88,13 @@ label {
   transition: 1s;
 }
 
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* --- FOOTER ATRIBUTES --- */
+
 footer {
   padding: 10px;
   background-color: #212121; /* BETA CAN BE DELETED */
@@ -103,9 +107,25 @@ footer .about-me {
   justify-content: space-between;
 }
 
+.media-links {
+  display: flex;
+  gap: 5px;
+}
+
+.social-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.social-logo {
+  display: flex;
+}
+
 .f-logo {
   display: flex;
-  width: 30%;
+  width: 18%;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -119,16 +139,12 @@ footer .privacy-info {
   padding: 3px 0 3px 0;
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .rules ul {
   display: flex;
   gap: 15px;
-}
-
-.loading {
-    opacity: 0;
 }
 
 @media screen and (max-width: 800px) {
@@ -145,15 +161,15 @@ footer .privacy-info {
   }
 
   .menu {
-    padding: 30px;
-    width: 275px;
+    padding: 20px 10px;
+    width: 200px;
     padding-bottom: 400px;
-    height: 1000%;
+    height: 2000%;
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #252525;
+    background-color: #212121;
     display: none;
   }
 
@@ -174,13 +190,14 @@ footer .privacy-info {
 
   .link:hover {
     background-color: #ec0138;
-    color: #252525;
+    color: #212121;
   }
 
   #menu:checked ~ .menu {
     display: inline;
   }
 
+  /* FOOTER */
   footer .about-me {
     align-items: center;
     justify-content: center;
@@ -190,9 +207,19 @@ footer .privacy-info {
 
   footer .about-me {
     display: inline;
-    padding: 5px 0 5px 0;
+    padding: 5px 0;
     justify-content: center;
     text-align: center;
+  }
+
+  .media-links {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-me {
+    display: inline;
   }
   
   .f-logo {

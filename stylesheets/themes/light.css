@@ -1,11 +1,17 @@
 .body-light {
   background-color: #fff;
-  color: #252525;
+  color: #212121;
   transition: all 0.5s ease-in-out;
 }
 
 .institute-container-light {
   background-color: #DB162F;
   color: #fff;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.footer-light {
+  background-color: #DB162F;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
 }
