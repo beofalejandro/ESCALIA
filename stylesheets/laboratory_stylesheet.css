@@ -51,7 +51,7 @@ body {
   width: 100%;
   z-index: -1;
   background-color: #fff;
-  color: #252525;
+  color: #000;
 }
 
 .welcome {
@@ -77,7 +77,7 @@ body {
 }
 
 .proximas_implementaciones {
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   text-align: center;
 }
 
@@ -93,8 +93,8 @@ body {
 .lab-container {
   background-color: #252525;
   color: #fff;
-  margin: 20px 130px 20px 130px;
-  padding: 10px 30px 10px 30px;
+  margin: 20px 120px;
+  padding: 10px 30px;
   border-radius: 5px;
 }
 
@@ -119,9 +119,9 @@ body {
 .btn-calc {
   height: 50px;
   width: 50px;
-  margin: 5px 0 5px 0;
+  margin: 5px 0;
   color: #fff;
-  background-color: #252525;
+  background-color: #181818;
   border: 1px solid #fff;
   border-radius: 2px;
 }
@@ -130,7 +130,7 @@ body {
   height: 50px;
   width: 50px;
   background-color: darkviolet;
-  border: 1px solid #252525;
+  border: 1px solid #181818;
   transition: 0.3s;
   border-radius: 2px;
 }
@@ -168,7 +168,7 @@ body {
 }
 
 .panel-container {
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   padding: 1%;
   border-radius: 5px;
 }
@@ -179,8 +179,8 @@ body {
 
 @media screen and (max-width: 800px) {
   .lab-container {
-    margin: 10px 30px 10px 30px;
-    padding: 0px 10px 0 10px;
+    margin: 10px 30px;
+    padding: 0px 10px;
   }
 
   .content-cal {

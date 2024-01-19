@@ -73,19 +73,20 @@ label {
 }
 
 .button {
-  background-color: #414141;
+  background-color: #a4031f;
   color: #fff;
-  margin: 5px;
+  margin: 3px;
   cursor: pointer;
-  border: transparent;
-  padding: 8px;
-  border-radius: 3px;
+  border: 1px solid transparent;
+  font-size: 14px;
+  padding: 8px 15px;
 }
 
 .button:hover {
-  background-color: #a4031f;
-  color: #fff;
-  transition: 1s;
+  background-color: #E83151;
+  color: #000;
+  border: 1px solid transparent;
+  transition: 0.5s;
 }
 
 .content {
