@@ -83,7 +83,7 @@ label {
 }
 
 .button:hover {
-  background-color: #E83151;
+  background-color: #e83151;
   color: #000;
   border: 1px solid transparent;
   transition: 0.5s;
@@ -97,7 +97,7 @@ label {
 /* --- FOOTER ATRIBUTES --- */
 
 footer {
-  padding: 10px;
+  padding: 8px 20px;
   background-color: #212121; /* BETA CAN BE DELETED */
 }
 
@@ -199,6 +199,10 @@ footer .privacy-info {
   }
 
   /* FOOTER */
+  footer {
+    padding: 10px;
+  }
+
   footer .about-me {
     align-items: center;
     justify-content: center;

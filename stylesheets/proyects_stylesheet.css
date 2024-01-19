@@ -17,19 +17,19 @@ body {
 .content {
   background-color: #212121;
   text-align: center;
-  padding: 20px 0 20px 0;
+  padding: 20px 0;
 }
 
 .p_welcome {
   height: 200px;
-  margin: 90px 28% 70px 28%;
-  background-color: #fff;
+  margin: 90px 28% 70px;
+  background: rgba(225, 225, 225, 0.4);
 }
 
 .p_welcome h1 {
   text-align: center;
   padding: 75px 0 0 0;
-  color: #000;
+  color: #fff;
 }
 
 .pro_container {
@@ -64,8 +64,25 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+  .pro_container {
+    margin: 20px 20px;
+    padding: 15px;
+    background-color: #181818;
+    border-radius: 5px;
+  }
+  
   .pro_content {
     display: inline;
     gap: 3px;
+  }
+
+  .p_welcome {
+    margin: 90px 22% 70px;
+  }
+
+  .p_welcome h1 {
+    text-align: center;
+    padding: 65px 0 0 0;
+    color: #fff;
   }
 }

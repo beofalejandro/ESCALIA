@@ -40,7 +40,7 @@ header {
   position: relative;
   height: 500px;
   max-width: auto;
-  margin: 0 0 0 0;
+  margin: 0;
   overflow: hidden;
 }
 
@@ -117,7 +117,7 @@ header {
 }
 
 .menu-button:hover {
-  color: #212121;
+  color: #000;
   transition: 0.2s;
 }
 
@@ -133,9 +133,24 @@ header {
 
 @media screen and (max-width: 800px) {
   .institute-container {
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
+    display: block;
+  }
+
+  .menu-list {
+    width: 100%;
+    text-align: center;
+  }
+
+  .pan-content {
+    padding: 10px 0;
     display: inline;
+  }
+
+  .cont_pan-institute {
+    padding: 0;
+    text-align: center;
   }
 
   .menu-button {
