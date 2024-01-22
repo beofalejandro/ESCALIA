@@ -1,5 +1,7 @@
-var header = document.getElementById('header');
+window.sr = ScrollReveal();
+
 ///// HEADER
+var header = document.getElementById('header');
 window.addEventListener('scroll', () => {
     var scroll = window.scrollY
     if (scroll > 10) {
@@ -9,7 +11,7 @@ window.addEventListener('scroll', () => {
     }
 })
 
-// PANELS -- PEVIEW
+// PANELS WITH JS
 const contenedor = document.getElementById("container"); //GET THE CONATINER FOR PANELS
 // SET THE DIV's
 const panel1 = document.getElementById("panel1");
@@ -44,4 +46,10 @@ boton3.addEventListener("click", () => {
     panel1.style.display = "none";
     panel2.style.display = "none";
     panel3.style.display = "block";
+});
+
+sr.reveal('#lab-scroll-anim', {
+    duration: 2000,
+    origin: 'bottom',
+    reset: 'true'
 });

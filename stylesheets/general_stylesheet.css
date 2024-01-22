@@ -89,13 +89,7 @@ label {
   transition: 0.5s;
 }
 
-.content {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 /* --- FOOTER ATRIBUTES --- */
-
 footer {
   padding: 8px 20px;
   background-color: #212121; /* BETA CAN BE DELETED */
