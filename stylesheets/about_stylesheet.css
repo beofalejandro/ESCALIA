@@ -70,23 +70,23 @@ body {
 .media-container {
   height: 40px;
   margin: 15px 0;
-  background-color: gray;
-  border-radius: 8px;
+  background-color: #252525;
+  border-radius: 7px;
   display: flex;
 }
 
 .media-container:hover {
-  background: linear-gradient(50deg, #f9ea20, #9e0f64);
+  background: linear-gradient(50deg, #a4031f, #9e0f64);
   background-size: 2200px 50px;
   animation: w_multicolor 7s linear infinite;
 }
 
 .media-links {
-  padding: 5px 0 0 0;
   margin: 0 10px;
   display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  gap: 5px;
 }
 
 .title-button {
@@ -99,27 +99,49 @@ body {
   align-items: center;
 }
 
-.cv_table {
-  margin: 20px 0;
-  border-collapse: collapse;
-  border: 1px solid black;
-  font-size: 15px;
-  width: 100%;
-  background: linear-gradient(90deg, purple, orange);
-  background-size: 2200px 50px;
-  animation: w_multicolor 30s linear infinite;
+.cur-container {
+  margin-top: 20px;
 }
 
-th,
-td {
-  padding: 5px;
-  text-align: center;
+#cur_con-head {
+  border-radius: 5px 5px 0 0;
+  padding: 20px 20px 10px;
+  background-color: #a4031f;
 }
 
-th {
-  color: #fff;
+.cur_con_social-media {
+  padding: 10px 0;
+  display: flex;
+  gap: 30px;
 }
 
+.cur-content {
+  background-color: #252525;
+}
+
+#cur-description {
+  padding: 15px 20px 10px;
+}
+
+#cur-experience {
+  padding: 0 20px 10px;
+}
+
+#cur-education {
+  padding: 0 20px 10px;
+}
+
+#cur-skills {
+  padding: 0 20px 10px;
+}
+
+#cur-languages {
+  padding: 0 20px 10px;
+}
+
+#cur-certificates {
+  padding: 0 20px 10px;
+}
 
 @media screen and (max-width: 800px) {
   .about-container {

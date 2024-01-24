@@ -9,6 +9,7 @@ sr.reveal('.w_content', {
 
 sr.reveal('.cards-container', {
     duration: 2000,
+
     origin: 'bottom',
     distance: '-20px',
 });
@@ -19,8 +20,9 @@ sr.reveal('.longest-cards-space', {
     distance: '-20px',
 });
 
-sr.reveal('.lingard-workout', {
-    duration: 3000,
-    origin: 'left',
+sr.reveal('.color-palette', {
+    duration: 2000,
+    delay: 200,
+    origin: 'bottom',
     distance: '-20px',
 });

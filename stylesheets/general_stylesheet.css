@@ -79,6 +79,7 @@ label {
   cursor: pointer;
   border: 1px solid transparent;
   font-size: 14px;
+  border-radius: 5px;
   padding: 8px 15px;
 }
 
