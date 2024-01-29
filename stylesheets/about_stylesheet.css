@@ -21,13 +21,14 @@ body {
   color: #fff;
 }
 
-.link {
-  color: #f2f2f2;
+.header-link {
+  color: #fff;
 }
 
-.link:hover {
+.header-link:hover {
   color: #a4031f;
 }
+
 
 .about-container {
   background-color: #181818;

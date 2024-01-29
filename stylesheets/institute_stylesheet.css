@@ -2,13 +2,14 @@ header {
   background: linear-gradient(180deg, #252525 10%, transparent);
 }
 
-.link {
-  color: #f2f2f2;
+.header-link {
+  color: #fff;
 }
 
-.link:hover {
+.header-link:hover {
   color: #a4031f;
 }
+
 
 .mode {
   cursor: pointer;

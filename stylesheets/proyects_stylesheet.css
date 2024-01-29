@@ -6,11 +6,11 @@ body {
   color: #fff;
 }
 
-.link {
+.header-link {
   color: #fff;
 }
 
-.link:hover {
+.header-link:hover {
   color: #a4031f;
 }
 

@@ -34,11 +34,11 @@
   }
 }
 
-.link {
+.header-link {
   color: #252525;
 }
 
-.link:hover {
+.header-link:hover {
   font-weight: bold;
   color: #fd6585;
 }
