@@ -20,6 +20,10 @@ body {
   padding: 20px 0;
 }
 
+.content h2{
+  padding-bottom: 20px;
+}
+
 .p_welcome {
   height: 200px;
   margin: 90px 28% 70px;
@@ -33,28 +37,29 @@ body {
 }
 
 .pro_container {
-  margin: 20px 40px;
-  padding: 15px;
-  background-color: #181818;
   border-radius: 5px;
 }
 
-.pro_container h2 {
-  padding: 0 0 10px 0;
+.pro_content{
+  display: flex;
+  gap: 20px;
 }
 
-.pro_content {
-  display: flex;
-  gap: 3px;
+.pro_description {
+  padding: 60px 50px 60px 60px;
+  clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+  background-color: #a4031f;
 }
 
 .pro_picture {
+  width: 130px;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
 .p-picture {
+  display: flex;
   width: 200px;
 }
 
@@ -65,15 +70,10 @@ body {
 
 @media screen and (max-width: 800px) {
   .pro_container {
-    margin: 20px 20px;
+    margin: 0;
     padding: 15px;
     background-color: #181818;
     border-radius: 5px;
-  }
-  
-  .pro_content {
-    display: inline;
-    gap: 3px;
   }
 
   .p_welcome {
