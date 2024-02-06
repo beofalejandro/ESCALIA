@@ -27,7 +27,7 @@ body {
 .p_welcome {
   height: 200px;
   margin: 90px 28% 70px;
-  background: rgba(225, 225, 225, 0.4);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 .p_welcome h1 {
@@ -38,6 +38,25 @@ body {
 
 .pro_container {
   border-radius: 5px;
+}
+
+.pro_slides_container {
+  margin: 20px 5px;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.pro_slide {
+  margin: 5px;
+  padding: 1px;
+  width: 300px;
+  min-width: 300px;
+  border-radius: 5px;
+  background-color: #181818;
+}
+
+.slide_picture {
+  width: 100%;
 }
 
 .pro_content{
