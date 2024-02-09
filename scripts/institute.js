@@ -26,7 +26,7 @@ function prevSlide() {
     currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
     showSlide(currentIndex);
 }
-setInterval(nextSlide, 20000);
+setInterval(nextSlide, 25000);
 
 // Change theme
 ButtonMode.addEventListener('click', () => {

@@ -46,7 +46,7 @@ header {
 
 .slider {
   display: flex;
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
 
 .slide {
@@ -56,6 +56,10 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.sli_content {
+  padding: 200px 0 0 80px;
 }
 
 .prev {
