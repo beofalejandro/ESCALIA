@@ -63,8 +63,8 @@ body {
   display: none;
 }
 
-.menu-icon {
-  width: 40px;
+.menu-icono {
+  width: 32px;
 }
 
 .header-link {
@@ -80,13 +80,12 @@ body {
   transition: 0.4s;
 }
 
-
 label {
   cursor: pointer;
   display: none;
 }
 
-.button {
+button.button {
   background-color: #a4031f;
   color: #fff;
   margin: 3px;
@@ -94,14 +93,13 @@ label {
   border: 1px solid transparent;
   font-size: 14px;
   border-radius: 5px;
-  padding: 8px 15px;
+  padding: 8px 20px;
 }
 
 .button:hover {
   background-color: #e83151;
   color: #000;
-  border: 1px solid transparent;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 /* --- FOOTER ATRIBUTES --- */

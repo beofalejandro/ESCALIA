@@ -59,17 +59,12 @@ body {
   padding: 0 0 10px 0;
   width: 250px;
   display: inline-block;
-  background-color: #181818;
-  border-radius: 4px;
+  background-color: #151515;
+  border-radius: 3px;
   text-align: center;
   cursor: default;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
     rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-.card:hover {
-  background-color: #a4031f;
-  transition: 0.3s;
 }
 
 .card p {
@@ -87,7 +82,7 @@ body {
   margin: 30px 5%;
   display: flex;
   grid-gap: 5px;
-  background-color: #181818;
+  background-color: #151515;
   border-radius: 5px;
 }
 
@@ -113,7 +108,7 @@ body {
 }
 
 .color-palette {
-  background-color: #181818;
+  background-color: #151515;
   margin: 40px 5%;
 }
 
@@ -143,11 +138,11 @@ body {
 }
 
 #color2 {
-  background-color: #181818;
+  background-color: #151515;
 }
 
 #color3 {
-  background-color: #a4031f;
+  background-color: #A4031F;
 }
 
 #color4 {

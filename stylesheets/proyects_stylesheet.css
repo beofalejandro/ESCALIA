@@ -24,15 +24,22 @@ body {
   padding-bottom: 10px;
 }
 
-.p_welcome {
-  height: 200px;
-  margin: 90px 28% 70px;
-  background: rgba(0, 0, 0, 0.8);
+.pro_welcome {
+  text-align: center;
+  padding: 120px 0;
+  width: 60%;
+  background-color: rgb(0, 0, 0, 0.9);
+}
+
+.pro_wel_title {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .p_welcome h1 {
   text-align: center;
-  padding: 75px 0 0 0;
   color: #fff;
 }
 
@@ -41,19 +48,20 @@ body {
 }
 
 .pro_slides_container {
-  margin: 20px 5px;
+  margin: 1% 0;
+  padding: 1px 10px;
   display: flex;
   overflow-x: scroll;
-  gap: 3px;
+  gap: 5px;
 }
 
 .pro_slide {
-  margin: 7px;
-  padding: 1px;
-  width: 300px;
-  min-width: 300px;
+  margin: 9px;
+  padding: 1%;
+  width: 350px;
+  min-width: 350px;
   border-radius: 5px;
-  background-color: #181818;
+  background-color: #151515;
 }
 
 .slide_picture {
@@ -103,7 +111,7 @@ body {
   .pro_container {
     margin: 0;
     padding: 15px;
-    background-color: #181818;
+    background-color: #151515;
     border-radius: 5px;
   }
 
