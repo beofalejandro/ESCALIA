@@ -60,7 +60,7 @@ body {
 
 .background {
   height: 500px;
-  background: linear-gradient(220deg, #1ca4d1, #a71d31);
+  background: linear-gradient(200deg, #1ca4d1, #a71d31);
   background-size: 2200px 500px;
   animation: w_multicolor 40s linear infinite;
 }
