@@ -156,13 +156,6 @@ body {
   padding-top: 10px;
 }
 
-.footer-lab {
-  background-color: #fff;
-  padding: 15px 10px;
-  text-align: center;
-  color: #000;
-}
-
 .picture {
   width: 600px;
 }
@@ -177,12 +170,21 @@ body {
   padding: 10px;
 }
 
+.lab-container .button {
+  margin: 10px 0 0 0;
+}
 
+.footer-lab {
+  background-color: #fff;
+  padding: 15px 10px;
+  text-align: center;
+  color: #000;
+}
 
 @media screen and (max-width: 800px) {
   .lab-container {
     margin: 10px 30px;
-    padding: 0px 10px;
+    padding: 10px;
   }
 
   .content-cal {

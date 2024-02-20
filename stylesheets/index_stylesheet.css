@@ -18,49 +18,49 @@ body {
   padding: 15px 0;
 }
 
-.i_welcome {
+.index_title {
   height: 600px;
 }
 
-.i_w_container {
+.ind_tit-container {
   padding: 250px 0 0 0;
   margin: 0 100px;
   text-align: center;
 }
 
-.w_content h1 {
+.tit-content h1 {
   padding: 0 0 5px 0;
   font-size: 34px;
 }
 
-.w_content h1:hover {
+.tit-content h1:hover {
   color: #a4031f;
   transition: 0.5s;
 }
 
-.i_w_controls {
+.ind_tit-controls {
   padding: 10px 0 0 0;
   display: flex;
   text-align: center;
   justify-content: center;
 }
 
-.cards-space h2 {
+.cards-container h2 {
   padding-bottom: 10px;
   text-align: center;
 }
 
-.cards-container {
+.cards-content {
   text-align: center;
 }
 
 .card {
   margin: 15px;
-  padding: 0 0 10px 0;
-  width: 250px;
+  padding: 0 0 15px 0;
+  width: 270px;
   display: inline-block;
   background-color: #151515;
-  border-radius: 3px;
+  border-radius: 5px;
   text-align: center;
   cursor: default;
   box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
@@ -69,14 +69,15 @@ body {
 
 .card p {
   font-size: 15px;
-  padding: 7px;
+  padding: 7px 7px 15px;
 }
 
-.card .picture {
+.card-picture {
+  padding: 0 0 15px;
   border-radius: 4px 4px 0 0;
   width: 100%;
 }
-
+/* PENDING TO EDIT*/
 .longest-cards {
   padding: 20px;
   margin: 30px 5%;
@@ -86,7 +87,7 @@ body {
   border-radius: 5px;
 }
 
-.box-1 {
+.lon_card-picture {
   width: 200px;
   display: flex;
 }
@@ -95,15 +96,15 @@ body {
   width: 200px;
 }
 
-.box-2 {
+.lon_card-content {
   padding: 20px 0 0 20px;
 }
 
-.box-2 button{
+.lon_card-content button{
   margin-top: 20px;
 }
 
-.box-2 p {
+.lon_card-content p {
   padding: 10px 0 0 0;
 }
 
@@ -156,7 +157,7 @@ body {
 }
 
 @media screen and (max-width: 800px) {
-  .i_welcome .i_w_container {
+  .ind_tit-container {
     padding: 220px 0 0 0;
     margin: 0 30px;
     text-align: center;
@@ -167,7 +168,7 @@ body {
     margin: 10px;
   }
 
-  .cards-space .cards-container {
+  .cards-content {
     text-align: center;
   }
 
@@ -177,12 +178,12 @@ body {
     display: inline-block;
   }
 
-  .box-1 {
+  .lon_card-picture {
     width: 100%;
     justify-content: center;
   }
 
-  .box-2 {
+  .lon_card-content {
     padding: 0;
   }
 

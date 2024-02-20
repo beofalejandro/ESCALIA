@@ -29,9 +29,9 @@ body {
   color: #a4031f;
 }
 
-
 .about-container {
-  background-color: #151515;
+  border-radius: 5px;
+  background-color: #212121;
   margin: 6%;
 }
 

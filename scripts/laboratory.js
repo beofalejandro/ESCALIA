@@ -6,7 +6,7 @@ window.addEventListener('scroll', () => {
     var scroll = window.scrollY
     if (scroll > 10) {
         header.style.backgroundColor = '#FFFFFF'
-    }else{
+    } else {
         header.style.backgroundColor = 'transparent'
     }
 })
@@ -52,4 +52,9 @@ sr.reveal('#lab-scroll-anim', {
     duration: 2000,
     origin: 'bottom',
     reset: 'true'
+});
+
+// NEW CODE
+document.getElementById("javascript-lab").addEventListener("click", function () {
+    alert("Oh no! Me has presionado, ahora muere");
 });
