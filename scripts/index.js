@@ -1,7 +1,7 @@
 window.sr = ScrollReveal();
 
 // ANIMATIONS WITH USER SCROLL
-sr.reveal('.w_content', {
+sr.reveal('.index_title', {
     duration: 1500,
     origin: 'bottom',
     reset: 'true'
@@ -14,7 +14,7 @@ sr.reveal('.cards-container', {
     distance: '-20px',
 });
 
-sr.reveal('.longest-cards-space', {
+sr.reveal('.longest-cards-container', {
     duration: 2000,
     origin: 'bottom',
     distance: '-20px',
