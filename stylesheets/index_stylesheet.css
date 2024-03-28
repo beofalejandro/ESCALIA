@@ -162,6 +162,16 @@ body {
   background-color: #fff;
 }
 
+@media screen and (min-width: 1400px){
+  .longest-cards {
+    margin: 30px 14%;
+  }
+
+  .color-palette {
+    margin: 40px 14%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .ind_tit-container {
     padding: 220px 0 0 0;

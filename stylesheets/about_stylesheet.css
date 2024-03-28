@@ -42,7 +42,7 @@ body {
 .con_tit_escalia {
   display: flex;
   justify-content: center;
-  padding: 50px 0;
+  padding: 80px 0;
 }
 
 #title {
@@ -55,21 +55,28 @@ body {
   color: #151515;
 }
 
-.h_a_container {
+.workgroup-escalia {
+  display: flex;
+  gap: 10px;
+}
+
+.member_container {
+  margin: 2% 0;
   display: flex;
   grid-gap: 5px;
 }
 
 .a_logo-container {
-  width: 200px;
+  width: 180px;
   display: flex;
   text-align: center;
   align-items: center;
 }
 
 .logo-about {
-  width: 190px;
+  width: 150px;
   justify-content: center;
+  border-radius: 50%;
 }
 
 .me {
@@ -78,10 +85,6 @@ body {
 
 .me p {
   padding: 10px 0 0 0;
-}
-
-.description {
-  margin: 20px 0 0 0;
 }
 
 .media-container {
@@ -93,71 +96,21 @@ body {
 }
 
 .media-container:hover {
-  background: linear-gradient(50deg, #a4031f, #9e0f64);
-  background-size: 2200px 50px;
-  animation: w_multicolor 7s linear infinite;
+  background: linear-gradient(50deg, yellow, #9e0f64);
+  background-size: 3000px 50px;
+  animation: w_multicolor 10s linear infinite;
 }
 
 .media-links {
-  margin: 0 10px;
+  margin: 20px 10px;
   display: flex;
-  align-items: center;
-  justify-content: center;
   gap: 5px;
 }
 
-.title-button {
+.link-logo {
   display: flex;
-  justify-content: space-between;
-}
-
-.title-button h2 {
-  display: flex;
-  align-items: center;
-}
-
-.cur-container {
-  margin-top: 20px;
-}
-
-#cur_con-head {
-  border-radius: 5px 5px 0 0;
-  padding: 20px 20px 10px;
-  background-color: #a4031f;
-}
-
-.cur_con_social-media {
-  padding: 10px 0;
-  display: flex;
-  gap: 30px;
-}
-
-.cur-content {
-  background-color: #252525;
-}
-
-#cur-description {
-  padding: 15px 20px 10px;
-}
-
-#cur-experience {
-  padding: 0 20px 10px;
-}
-
-#cur-education {
-  padding: 0 20px 10px;
-}
-
-#cur-skills {
-  padding: 0 20px 10px;
-}
-
-#cur-languages {
-  padding: 0 20px 10px;
-}
-
-#cur-certificates {
-  padding: 0 20px 10px;
+  text-align: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 800px) {
@@ -174,11 +127,16 @@ body {
   }
 
   .me {
-    padding: 20px 0 0 0;
+    padding: 10px 0 0 0;
   }
 
-  .h_a_container {
+  .member_container {
     display: inline-block;
+  }
+
+  .workgroup-escalia {
+    display: inline;
+    gap: 0;
   }
 
   .about-content {
