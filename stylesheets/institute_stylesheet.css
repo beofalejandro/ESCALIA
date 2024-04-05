@@ -1,13 +1,26 @@
+:root {
+  --escalia-background: #EC0138;
+
+  --dark-background: #212121;
+  --dark-container-background: #151515;
+  --dark-color: #FFFFFF;
+  --dark-button-color: #A4031F;
+
+  --light-background: #FFFFFF;
+  --light-container-background: #DB162F;
+  --light-color: #000000;
+}
+
 header {
   background: linear-gradient(180deg, #252525 10%, transparent);
 }
 
 .header-link {
-  color: #fff;
+  color: var(--dark-color);
 }
 
 .header-link:hover {
-  color: #a4031f;
+  color: var(--dark-button-color);
 }
 
 .mode {
@@ -15,7 +28,7 @@ header {
   margin: 0 10px;
   font-size: 17px;
   font-weight: bold;
-  color: #fff;
+  color: var(--dark-color);
 }
 
 .welcome {
@@ -70,7 +83,7 @@ header {
   border: none;
   background: transparent;
   cursor: pointer;
-  color: #fff;
+  color: var(--dark-color);
 }
 
 .next {
@@ -81,7 +94,7 @@ header {
   border: none;
   background: transparent;
   cursor: pointer;
-  color: #fff;
+  color: var(--dark-color);
 }
 
 .prev {
@@ -118,7 +131,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   background-color: transparent;
-  color: #fff;
+  color: var(--dark-color);
 }
 
 .menu-button:hover {
