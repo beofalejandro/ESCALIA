@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="stylesheets/proyects_stylesheet.css" />
     <link rel="stylesheet" href="stylesheets/main_stylesheet.css" />
     <link rel="Icon" href="library/logotype_resourses/ESCALIA/ESCALIALogoCA.svg" />
+    <script src="scripts/libaries/scrollreveal.js"></script>
 </head>
 
 <body>
@@ -39,7 +40,7 @@
         </ul>
     </header>
 
-    <div class="pro_welcome">
+    <div class="pro-welcome">
         <div class="pro_wel_title">
             <h1>MIS PROYECTOS EN UN SOLO LUGAR</h1>
         </div>
@@ -59,88 +60,93 @@
     </div>
 
     <main class="content">
+        <br>
         <h2>PROYECTOS</h2>
 
-        <div class="pro_container">
-            <div class="pro_slides_container">
-                <div class="pro_slide">
-                    <img src="library/pictures/proyects/proyect-example1.png" class="slide_picture" alt="">
+        <div class="pro_slides_container">
+            <div class="pro_slide">
+                <figure class="slide_picture_container">
+                    <img src="library/pictures/proyects/proyect-example5.png" class="slide_picture" alt="">
+                </figure>
+                <div class="proj_slide_description">
                     <h3>Python Platform with Flask</h3>
                     <button class="button">Ver</button>
                 </div>
-                <div class="pro_slide">
-                    <img src="library/pictures/proyects/proyect-example1.png" class="slide_picture" alt="">
+            </div>
+            <div class="pro_slide">
+                <figure class="slide_picture_container">
+                    <img src="library/pictures/proyects/proyect-example5.png" class="slide_picture" alt="">
+                </figure>
+                <div class="proj_slide_description">
                     <h3>Asesorias Static App</h3>
                     <button class="button">Ver</button>
                 </div>
-                <div class="pro_slide">
-                    <img src="library/pictures/proyects/proyect-example1.png" class="slide_picture" alt="">
+            </div>
+            <div class="pro_slide">
+                <figure class="slide_picture_container">
+                    <img src="library/pictures/proyects/proyect-example5.png" class="slide_picture" alt="">
+                </figure>
+                <div class="proj_slide_description">
                     <h3>The Happy Bite Edition 2024</h3>
-                    <a href="happybitedition.html"><button class="button">Ver</button>
-                    </a>
+                    <button class="button">Ver</button>
                 </div>
-                <div class="pro_slide">
-                    <img src="library/pictures/proyects/proyect-example1.png" class="slide_picture" alt="">
+            </div>
+            <div class="pro_slide">
+                <figure class="slide_picture_container">
+                    <img src="library/pictures/proyects/proyect-example5.png" class="slide_picture" alt="">
+                </figure>
+                <div class="proj_slide_description">
                     <h3>Scripts: Configuración de Redes</h3>
                     <button class="button">Ver</button>
                 </div>
-                <div class="pro_slide">
-                    <img src="library/pictures/proyects/proyect-example1.png" class="slide_picture" alt="">
-                    <h3> </h3>
-                    <button class="button">Ver</button>
-                </div>
-                <div class="pro_slide">
-                    <img src="library/pictures/proyects/proyect-example1.png" class="slide_picture" alt="">
-                    <h3> </h3>
-                    <button class="button">Ver</button>
+            </div>
+        </div>
+
+        <div class="pro_content">
+            <div id="pro_cont_picture_1">
+                <div class="pro_picture">
+                    <img src="library/pictures/proyects/proyect-example4.jpg" class="p-picture" alt="" />
                 </div>
             </div>
+            <div class="pro_description" id="pro_1">
+                <h2>Descargador de Videos</h2>
 
-            <div class="pro_content">
-                <div id="pro_cont_picture_1">
-                    <div class="pro_picture">
-                        <img src="library/pictures/proyects/proyect-example4.jpg" class="p-picture" alt="" />
-                    </div>
-                </div>
-                <div class="pro_description" id="pro_1">
-                    <h2>Descargador de Videos</h2>
-
-                    <p>Proximamente - Solo diseño</p>
-                    <p>¿Estas cansado de tener que descargar una aplicacion de escritorio para descargar tus videos?,
-                        Pues aqui te tengo la solucion amigo, lo unico que tienes es que dirigirte a youtube, copiar tu
-                        link de video y dirigirte aqui, y ahora si amigo preparate para tener tus videos favoritos</p>
-                    <div class="pro_controls">
-                        <a
-                            href="https://github.com/beofalejandro/ESCALIA/blob/Proyects/Python%20Proyects/Downloader/main.py">
-                            <button class="button">Ver codigo</button></a>
-                        <button class="button">Descargar (Soon)</button>
-                    </div>
+                <p>Proximamente - Solo diseño</p>
+                <p>¿Estas cansado de tener que descargar una aplicacion de escritorio para descargar tus videos?,
+                    Pues aqui te tengo la solucion amigo, lo unico que tienes es que dirigirte a youtube, copiar tu
+                    link de video y dirigirte aqui, y ahora si amigo preparate para tener tus videos favoritos</p>
+                <div class="pro_controls">
+                    <a
+                        href="https://github.com/beofalejandro/ESCALIA/blob/Proyects/Python%20Proyects/Downloader/main.py">
+                        <button class="button">Ver codigo</button></a>
+                    <button class="button">Descargar (Soon)</button>
                 </div>
             </div>
-            <div class="pro_content">
-                <div class="pro_description" id="pro_2">
-                    <h2>Aplicacion Web Estatica con Python y Flask</h2>
+        </div>
+        <div class="pro_content">
+            <div class="pro_description" id="pro_2">
+                <h2>Aplicacion Web Estatica con Python y Flask</h2>
 
-                    <p>2.3.4 (laboratory) - Happy Bite Collection</p>
-                    <p>Mi Primer sitio estatico web conla tecnologia de Python integrada, actualmente solo se puede
-                        ejecutar de forma locar por que no tengo un lugar para hostearlo (son caros) por lo que la
-                        version que descargas funciona de forma local, IMPORTANTE: Lee el readme del repositorio para
-                        aprovechar su maximo rendimiento de la aplicacion</p>
-                    <div class="pro_controls">
-                        <a
-                            href="https://github.com/beofalejandro/ESCALIA/blob/Proyects/Python%20Proyects/Downloader/main.py">
-                            <button class="button">Ver codigo</button></a>
-                        <button class="button">Descargar (Soon)</button>
-                    </div>
-                    <div class="">
-                    </div>
+                <p>2.3.4 (laboratory) - Happy Bite Collection</p>
+                <p>Mi Primer sitio estatico web conla tecnologia de Python integrada, actualmente solo se puede
+                    ejecutar de forma locar por que no tengo un lugar para hostearlo (son caros) por lo que la
+                    version que descargas funciona de forma local, IMPORTANTE: Lee el readme del repositorio para
+                    aprovechar su maximo rendimiento de la aplicacion</p>
+                <div class="pro_controls">
+                    <a
+                        href="https://github.com/beofalejandro/ESCALIA/blob/Proyects/Python%20Proyects/Downloader/main.py">
+                        <button class="button">Ver codigo</button></a>
+                    <button class="button">Descargar (Soon)</button>
                 </div>
-                <div id="pro_cont_picture_1">
-                    <div class="pro_picture">
-                        <img src="library/pictures/proyects/proyect-example4.jpg" class="p-picture" alt="" />
-                    </div>
+                <div class="">
                 </div>
             </div>
+            <div id="pro_cont_picture_1">
+                <div class="pro_picture">
+                    <img src="library/pictures/proyects/proyect-example4.jpg" class="p-picture" alt="" />
+                </div>
+            </div>
+        </div>
     </main>
 
     <!-- FOOTER -->
@@ -186,6 +192,7 @@
     </footer>
 
     <script src="scripts/main.js"></script>
+    <script src="scripts/proyects.js"></script>
 </body>
 
 </html>

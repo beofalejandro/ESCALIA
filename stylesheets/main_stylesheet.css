@@ -36,13 +36,13 @@ header {
   justify-content: space-between;
   align-items: center;
   background-size: cover;
-  transition: 0.2s ease-in-out;
+  transition: 0.3s ease-in-out;
   z-index: 1;
 }
 
 /* --- BODY STYLES --- */
 body {
-  height: 145vh;
+  height: 100vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -63,14 +63,14 @@ body {
 
 .menu {
   display: flex;
+  padding: 1%;
+  display: grid;
+  gap: 1px;
+  grid-auto-flow: column;
+  grid-auto-columns: max-content;
   justify-content: center;
   align-items: center;
   margin-left: auto;
-  padding: 1%;
-  display: grid;
-  grid-auto-flow: column;
-  grid-auto-columns: max-content;
-  gap: 1px;
 }
 
 #menu {
@@ -118,7 +118,7 @@ button.button {
 
 /* --- FOOTER ATRIBUTES --- */
 footer {
-  padding: 8px 20px;
+  padding: 10px 20px;
   background-color: var(--dark-background); /* BETA CAN BE DELETED */
 }
 
@@ -157,8 +157,8 @@ footer .about-me {
   width: 150px;
 }
 
-footer .privacy-info {
-  padding: 3px 0 3px 0;
+footer > .privacy-info {
+  padding: 7px 0;
   display: flex;
   justify-content: space-between;
   font-size: 13px;
@@ -215,7 +215,7 @@ footer .privacy-info {
   #menu:checked ~ .menu {
     display: inline;
   }
-
+  
   /* FOOTER */
   footer {
     padding: 10px;
@@ -269,7 +269,7 @@ footer .privacy-info {
   }
 
   .credits {
-    padding: 10px 0 10px 0;
+    padding: 15px 0;
     width: 100%;
     text-align: center;
   }

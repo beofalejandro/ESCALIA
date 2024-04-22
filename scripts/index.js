@@ -9,7 +9,6 @@ sr.reveal('.index_title', {
 
 sr.reveal('.cards-container', {
     duration: 2000,
-
     origin: 'bottom',
     distance: '-20px',
 });
