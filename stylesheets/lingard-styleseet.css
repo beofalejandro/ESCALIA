@@ -16,6 +16,7 @@ body {
   background-position: center;
   background-color: var(--dark-background);
   color: var(--dark-color);
+  height: 10000%;
 }
 
 .content {
