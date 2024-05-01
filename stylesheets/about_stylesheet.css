@@ -52,7 +52,7 @@ body {
 #version-data {
   font-weight: bolder;
   font-size: 18px;
-  background: linear-gradient(120deg, #ff60ea, rgb(76, 253, 200));
+  background: linear-gradient(120deg, #ff60ea, rgb(85, 250, 201));
   background-size: 400px 100px;
   background-clip: inherit;
   -webkit-background-clip: text;
@@ -105,7 +105,9 @@ body {
 
 .profile-info {
   align-items: center;
+  align-content: center;
 }
+
 .media-links {
   margin: 20px 10px;
   display: flex;

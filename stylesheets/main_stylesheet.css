@@ -8,15 +8,15 @@
 }
 
 :root {
-  --escalia-background: #EC0138;
+  --escalia-background: #ec0138;
 
   --dark-background: #212121;
   --dark-container-background: #151515;
-  --dark-color: #FFFFFF;
-  --dark-button-color: #A4031F;
+  --dark-color: #ffffff;
+  --dark-button-color: #a4031f;
 
-  --light-background: #FFFFFF;
-  --light-container-background: #DB162F;
+  --light-background: #ffffff;
+  --light-container-background: #db162f;
   --light-color: #000000;
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .header-link {
-  font-size: 16px;
+  font-size: 17px;
   padding: 7px 10px;
   background-color: transparent;
   cursor: pointer;
@@ -91,7 +91,35 @@ body {
 }
 
 .header-link:hover {
-  transition: 0.4s;
+  transition: 0.5s;
+}
+
+.item ul.dropdown > li {
+  display: block;
+}
+
+.item ul.dropdown {
+  display: none;
+  position: absolute;
+  padding: 0 10px;
+  background-color: var(--dark-background);
+  min-width: 160px;
+  z-index: 3;
+}
+
+.link a:hover {
+  background-color: #fff;
+}
+
+.item:hover ul.dropdown {
+  display: block;
+}
+
+.link-sub {
+  text-align: left;
+  width: 100%;
+  font-weight: normal;
+  padding: 4% 0;
 }
 
 label {
@@ -215,7 +243,7 @@ footer > .privacy-info {
   #menu:checked ~ .menu {
     display: inline;
   }
-  
+
   /* FOOTER */
   footer {
     padding: 10px;

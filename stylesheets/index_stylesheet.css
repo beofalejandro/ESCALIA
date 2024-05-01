@@ -26,6 +26,8 @@ body {
   color: var(--dark-button-color);
 }
 
+
+
 .content {
   background-color: var(--dark-background);
   padding: 15px 0;
@@ -115,7 +117,8 @@ body {
 }
 
 .lon_card-content {
-  padding: 20px 0 0 20px;
+  padding: 1%;
+  align-content: center;
 }
 
 .lon_card-content button{
@@ -131,6 +134,27 @@ body {
   margin: 30px 5%;
   display: flex;
   grid-gap: 5px;
+  background-color: #151515;
+}
+
+.escalia-products div > h2 {
+  background: linear-gradient(120deg, #992bff, rgb(255, 59, 140));
+  background-size: 500px 100px;
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ESCALANTE_slider_automate {
+  display: flex;
+  overflow: hidden;
+}
+
+.ESCALANTE_slider_automate > div {
+  padding: 5px 20px;
+  color: #212121;
+  align-content: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 1400px){
@@ -139,8 +163,9 @@ body {
   }
 
   .escalia-products {
-    margin: 40px 14%;
+    margin: 30px 14%;
   }
+
 }
 
 @media screen and (max-width: 800px) {
