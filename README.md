@@ -1,3 +1,3 @@
-Binevenido a ESCALIA
+Bienvenido al repositorio oficial, Binevenido a ESCALIA Studios
 
-Esta es el github oficial, normalmente deberia haber algo aqui pero no todo esta ordenado en las ramas que puedes ver, Disfruta tu estadia aqui
+Nuestro codigo fuente se encuentra aqui pero tiene una nomenclatura de ramas para que puedamos separar nuestros apartados paraa codigo, no es colaborativo por lo que no podras trabajar en el proyecto, disfruta tu estadia aqui
