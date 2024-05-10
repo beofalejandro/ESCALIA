@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sion Lingard | ESCALIA Site</title>
+    <title>Documentation | ESCALIA Site</title>
     <link rel="stylesheet" href="stylesheets/lingard-styleseet.css" />
     <link rel="stylesheet" href="stylesheets/main_stylesheet.css" />
     <link rel="Icon" href="library/logotype_resourses/ESCALIA/ESCALIALogoCA.svg" />
@@ -12,9 +12,15 @@
 
 <body>
     <header id="header">
-        <a href="index.html">
-            <img src="library/logotype_resourses/ESCALIA/ESCALIALogo.svg" class="logo" alt="ESCALIA Logo" />
-        </a>
+        <div class="logo_title">
+            <div> <a href="index.html">
+                    <img src="library/logotype_resourses/ESCALIA/ESCALIALogo.svg" class="logo" alt="ESCALIA Logo" />
+                </a>
+            </div>
+            <div>
+                <h1>Docs</h1>
+            </div>
+        </div>
 
         <input type="checkbox" id="menu" />
         <label for="menu">
@@ -51,6 +57,46 @@
             </li>
         </ul>
     </header>
+
+    <main class="content">
+        <section class="sidebar">
+            <ul class="sidebar-list">
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link"><button class="docs-menu-link" disabled style="font-weight: bolder;">Introducción</button></a>
+
+                    <ul class="sidebar-list">
+                        <li class="sub-sidebar-item"><a href=""><button class="docs-menu-link">informacion Inportante</button></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link"><button class="docs-menu-link">Redes</button></a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link"><button class="docs-menu-link">Linux</button></a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="#" class="sidebar-link"><button class="docs-menu-link">Créditos</button></a>
+                </li>
+            </ul>
+        </section>
+        <section class="docs-body">
+            <div class="docs-introduction">
+                <h2 class="docs-title">Bienvenido a la Documentación</h2>
+
+                <div class="docs-into-content">
+                    <p>Fecha de actualizacion: 04-05-2024 (BETA)</p>
+                    <br>
+                    <p>Esta seccion esta destinada a nuestros aprendizajes no codigo que deben recordarse, para mi es importante esta informacion y tambien para ti puede serlo asi que estara de forma permanente esta seccion, anteriormente mencionado es no codigo asi que no esperes repositorios aqui, incluira la mayor parte de los cursos importantes que estoy estudiando, la informacion esta sintetizada asi que deberas indagar por tu cuenta los temas a profundidad, inluiré los links para que tu puedas consultar, DISFRUTA TU ESTADIA</p>
+                </div>
+
+                <div class="docs-controls">
+                    <button class="button">Volver a inicio</button>
+                    <button class="button">Siguinte</button>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script src="scripts/main.js"></script>
     <script src="scripts/lingard.js"></script>

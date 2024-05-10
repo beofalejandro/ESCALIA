@@ -10,8 +10,8 @@
 :root {
   --escalia-background: #ec0138;
 
-  --dark-background: #212121;
-  --dark-container-background: #151515;
+  --dark-background: #151515;
+  --dark-container-background: #212121;
   --dark-color: #ffffff;
   --dark-button-color: #a4031f;
 
@@ -108,7 +108,7 @@ body {
 }
 
 .link a:hover {
-  background-color: #fff;
+  background-color: var(--dark-color);
 }
 
 .item:hover ul.dropdown {

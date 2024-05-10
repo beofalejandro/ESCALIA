@@ -1,8 +1,8 @@
 :root {
   --escalia-background: #ec0138;
 
-  --dark-background: #212121;
-  --dark-container-background: #151515;
+  --dark-background: #151515;
+  --dark-container-background: #212121;
   --dark-color: #ffffff;
   --dark-button-color: #a4031f;
 
@@ -80,14 +80,12 @@ body {
   border-radius: 10px;
 }
 
-
-
 .escalia-products {
   padding: 20px;
   margin: 30px 5%;
   display: flex;
   grid-gap: 5px;
-  background-color: #151515;
+  background-color: var(--dark-container-background);
 }
 
 .escalia-products div > h2 {
@@ -105,12 +103,10 @@ body {
 
 .ESCALANTE_slider_automate > div {
   padding: 5px 20px;
-  color: #212121;
+  color: var(--light-color);
   align-content: center;
   text-align: center;
 }
-
-
 
 .pro_content {
   display: flex; /*flex*/

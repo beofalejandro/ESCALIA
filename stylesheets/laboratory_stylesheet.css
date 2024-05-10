@@ -1,8 +1,8 @@
 :root {
   --escalia-background: #EC0138;
 
-  --dark-background: #212121;
-  --dark-container-background: #151515;
+  --dark-background: #151515;
+  --dark-container-background: #212121;
   --dark-color: #FFFFFF;
   --dark-button-color: #A4031F;
 
@@ -32,20 +32,20 @@
   }
 }
 
-@keyframes w_multicolor {
-  0% {
-    background-position: 0% 50%;
+  @keyframes w_multicolor {
+    0% {
+      background-position: 0% 50%;
+    }
+    25% {
+      background-position: 50% 100%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    75% {
+      background-position: 50% 0%;
+    }
   }
-  25% {
-    background-position: 50% 100%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 50% 0%;
-  }
-}
 
 .header-link {
   color: #252525;
@@ -73,7 +73,7 @@ body {
 
 .background {
   height: 500px;
-  background: linear-gradient(200deg, #1ca4d1, #a71d31);
+  background: linear-gradient(200deg, #22ffb5, #fcfcfc);
   background-size: 2200px 500px;
   animation: w_multicolor 40s linear infinite;
 }
@@ -104,7 +104,7 @@ body {
 }
 
 .lab-container {
-  background-color: var(--dark-container-background);
+  background-color: var(--dark-background);
   color: var(--dark-color);
   margin: 20px 120px;
   padding: 20px 30px;
