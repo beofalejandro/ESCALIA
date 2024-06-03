@@ -14,7 +14,7 @@
 }
 
 body {
-  background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%),
+  background-image: linear-gradient(180deg, #000000a1, #000000a1),
     url(../library/pictures/background/index_bg.jpg);
   background-position: center;
   color: var(--dark-color);
@@ -131,7 +131,7 @@ body {
   padding: 10px 0 0 0;
 }
 
-.escalia-products {
+.escalia-repositories {
   text-align: center;
   padding: 20px;
   margin: 30px 5%;
@@ -141,34 +141,117 @@ body {
   background-color: var(--dark-container-background);
 }
 
+.escalia-repositories > h2 {
+  padding: 25px 0;
+}
+
 #repositories-container {
   display: flex;
-  gap: 10px;
+  gap: 5px;
+}
+
+.menu-repos {
+  width: 20%;
+  border: 0.5px solid rgba(255, 192, 203, 0.5);
+  border-radius: 4px;
+  background-color: rgba(255, 192, 203, 0.05);
 }
 
 .repo-content {
-  width: 70%;
+  width: 80%;
   display: flex;
 }
 
-.escalia-products div > h2 {
-  background: linear-gradient(120deg, #2be6ff, rgb(59, 255, 92));
-  background-size: 800px 100px;
-  background-clip: inherit;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+.repo-content > div {
+  padding: 2%;
+  width: 100%;
+  border: 0.5px solid rgba(255, 192, 203, 0.5);
+  border-radius: 4px;
+  background-color: rgba(255, 192, 203, 0.05);
 }
 
-.ESCALANTE_slider_automate {
-  display: flex;
+.button-repo {
+  width: 98%;
+  justify-content: center;
+  padding: 8px 20px;
+  margin: 1%;
+  background-color: transparent;
+  color: pink;
+  font-weight: bold;
+  border: 0.5px solid rgba(255, 192, 203, 0.5);
+  transition: 0.5s;
+}
+
+.button-repo:hover {
+  background-color: pink;
+  color: var(--light-color);
+}
+
+#repo_pan_1 {
+  background-image: linear-gradient(180deg, #00000098, #00000098), url(../library/pictures/example1.jpg);
+  background-size: cover;
+  color: rgb(196, 243, 252);
+  transition: 2s;
+}
+
+#repo_pan_1:hover {
+  background-image: linear-gradient(180deg, #000000cc, #000000cc), url(../library/pictures/example1.jpg);
+  color: var(--dark-color);
+}
+
+#repo_pan_1 > p {
+ padding: 5% 0;
+}
+
+/* SIDER AUTOMATE */
+@keyframes scroll {
+  0% {
+    -webkit-transform: translate(0);
+    transform: translateX(0);
+  }
+
+  100% {
+    -webkit-transform: translate(calc(-200px * 4));
+    transform: translateX(calc(-200px * 4));
+  }
+}
+
+.repo-slider {
+  margin: 1% 0;
+  gap: 0px;
   overflow: hidden;
 }
 
-.ESCALANTE_slider_automate > div {
-  padding: 5px 20px;
-  color: var(--light-color);
-  align-content: center;
+.track-slider {
+  display: flex;
+  -webkit-animation: scroll 10s linear infinite;
+  width: calc(200px * 17);
+  animation: scroll 10s linear infinite;
+}
+
+.track-slider > div {
+  width: 200px;
+  font-weight: bold;
+  font-size: 25px;
   text-align: center;
+  padding: 8px 30px;
+  color: var(--light-color);
+}
+
+#letter-escalante {
+  color: yellowgreen;
+}
+
+#letter-escalia {
+  color: var(--escalia-background);
+}
+
+#letter-lingard {
+  color: cyan;
+}
+
+#letter-barrientos {
+  color: gold;
 }
 
 .happy-bite-collection {
@@ -177,14 +260,12 @@ body {
   margin: 30px 5%;
   border-radius: 7px;
   font-weight: bold;
-  background-color: rgb(250, 101, 250);
-  color: var(--light-color);
-  border: 1px solid white;
+  background-color: rgba(250, 101, 250, 0.096);
 }
 
 @media screen and (min-width: 1400px) {
   .longest-cards,
-  .escalia-products,
+  .escalia-repositories,
   .happy-bite-collection {
     margin: 30px 14%;
   }
@@ -220,4 +301,11 @@ body {
     padding: 0;
   }
 
+  #repositories-container {
+    display: inline;
+  }
+
+  #repositories-container > div{
+    width: 100%;
+  }
 }

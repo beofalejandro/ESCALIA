@@ -10,7 +10,6 @@
   --light-container-background: #db162f;
   --light-color: #000000;
 
-  --link-menu-color: #;
 }
 
 body {
@@ -33,6 +32,7 @@ body {
 
 .content {
   padding: 70px 1% 1% 1%;
+  display: flex;
 }
 
 .header-link {
@@ -41,10 +41,6 @@ body {
 
 .header-link:hover {
   color: var(--dark-button-color);
-}
-
-.content {
-  display: flex;
 }
 
 .sidebar {
@@ -101,4 +97,26 @@ body {
   padding: 1% 0;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .logo_title {
+    gap: 10px;
+  }
+
+  .logo_title h1 {
+    font-size: 22px;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .content {
+    display: block;
+  }
+
+  .docs-body {
+    width: 100%;
+  }
 }

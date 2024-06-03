@@ -63,7 +63,14 @@ sr.reveal('.color-palette', {
     distance: '-20px',
 });
 
-sr.reveal('.escalia-products', {
+sr.reveal('.escalia-repositories', {
+    duration: 2000,
+    delay: 200,
+    origin: 'bottom',
+    distance: '-20px',
+});
+
+sr.reveal('.happy-bite-collection', {
     duration: 2000,
     delay: 200,
     origin: 'bottom',

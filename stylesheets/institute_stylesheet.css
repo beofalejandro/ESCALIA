@@ -125,17 +125,20 @@ header {
 
 .menu-button {
   width: 200px;
-  border: none;
+  margin: 1% 0;
+  border: 1px solid #fff;
   cursor: pointer;
-  padding: 10px;
+  padding: 10px 15px;
   font-size: 14px;
   font-weight: bold;
   background-color: transparent;
   color: var(--dark-color);
+  transition: 0.5s;
 }
 
 .menu-button:hover {
-  color: #000;
+  color: var(--dark-color);
+  background-color: var(--dark-background);
   transition: 0.2s;
 }
 
@@ -172,7 +175,7 @@ header {
   }
 
   .menu-button {
-    width: auto;
-    padding: 10px;
+    width: 300px;
+    margin: 3px 0;
   }
 }
